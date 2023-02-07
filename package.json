@@ -1,0 +1,12 @@
+{
+  "name": "name_card",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts":{
+    "dev":"npx tailwindcss -i ./styles/app.css -o ./styles/styles.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
